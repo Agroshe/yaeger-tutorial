@@ -32,7 +32,7 @@ public class TitleScene extends StaticScene {
         );
         var waterworldButton = new StartButton(
                 new Coordinate2D(getWidth() / 2, getHeight() / 2 + 50),
-                waterworld
+                waterworld, "Play game"
         );
         waterworldText.setAnchorPoint(AnchorPoint.CENTER_CENTER);
         waterworldText.setFill(Color.DARKBLUE);
