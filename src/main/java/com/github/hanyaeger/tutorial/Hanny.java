@@ -74,11 +74,6 @@ public class Hanny extends DynamicSpriteEntity implements KeyListener, SceneBord
                         new Random().nextInt((int)(getSceneHeight() - getHeight())))
         );
 
-        health--;
-        healthText.setHealthText(health);
-        if (health == 0) {
-            waterworld.setActiveScene(20);
-        }
     }
 
 }
